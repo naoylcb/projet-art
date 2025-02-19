@@ -1,0 +1,93 @@
+body {
+	background-image: linear-gradient(rgba(0, 16, 198, 0.7), rgba(0, 16, 198, 0.7)),
+		url("data:image/svg+xml,%3Csvg width='20' height='12' viewBox='0 0 20 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 12c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 10 12c1.67 0 3.182-.683 4.27-1.785A5.998 5.998 0 0 0 14 12h2a4 4 0 0 1 4-4V6c-1.67 0-3.182.683-4.27 1.785C15.905 7.22 16 6.622 16 6c0-.622-.095-1.221-.27-1.785A5.982 5.982 0 0 0 20 6V4a4 4 0 0 1-4-4h-2c0 .622.095 1.221.27 1.785A5.982 5.982 0 0 0 10 0C8.33 0 6.818.683 5.73 1.785 5.905 1.22 6 .622 6 0H4a4 4 0 0 1-4 4v2c1.67 0 3.182.683 4.27 1.785A5.998 5.998 0 0 1 4 6c0-.622.095-1.221.27-1.785A5.982 5.982 0 0 1 0 6v2a4 4 0 0 1 4 4h2zm-4 0a2 2 0 0 0-2-2v2h2zm16 0a2 2 0 0 1 2-2v2h-2zM0 2a2 2 0 0 0 2-2H0v2zm20 0a2 2 0 0 1-2-2h2v2zm-10 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z' fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+	padding: 0;
+	margin: 0;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(rgba(0, 6, 72, 0.9), rgba(0, 6, 72, 0.9)), url("./assets/header.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+
+.logo {
+	background-color: white;
+	padding: 50px;
+}
+
+.poem {
+	background-color: #000648;
+	margin-top: 100px;
+	padding: 100px 200px;
+	color: white;
+	text-align: center;
+}
+
+.words {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 300px;
+	padding: 200px 0;
+}
+
+.words-button {
+	background-color: #1d7bff;
+	border: 0;
+	border-radius: 10px;
+	padding: 20px 40px;
+	color: white;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+}
+
+.words-button:hover {
+	cursor: pointer;
+	background-color: #3e8fff;
+}
+
+.about {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+
+.about-texts {
+	width: 500px;
+	margin: 100px 0;
+	line-height: 30px;
+}
+
+.result {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	padding: 100px 0;
+}
+
+.selected-words {
+	color: white;
+	font-size: 1.2rem;
+}
+
+.reset-button {
+	background-color: #000648;
+	border: 0;
+	border-radius: 10px;
+	padding: 20px 40px;
+	color: white;
+	font-size: 1.2rem;
+}
+
+.reset-button:hover {
+	background-color: #0010c6;
+	cursor: pointer;
+}
