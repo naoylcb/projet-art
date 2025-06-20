@@ -11,10 +11,8 @@ export const App = () => {
 			<video className="background-video" key={backgroundVideo} autoPlay playsInline loop muted>
 				<source src={getVideo(backgroundVideo)} type="video/mp4" />
 			</video>
-			<div className="background-content">
-				<div className="content">
-					<Game setBackgroundVideo={setBackgroundVideo} />
-				</div>
+			<div className="content">
+				<Game setBackgroundVideo={setBackgroundVideo} />
 			</div>
 		</>
 	);
