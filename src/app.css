@@ -76,6 +76,7 @@ body {
 	padding: 20px 40px;
 	color: white;
 	font-size: 1.2rem;
+	margin-bottom: 10px;
 }
 
 .reset-button:hover {
